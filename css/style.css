@@ -1,0 +1,218 @@
+body,input,ul,h1,p,li,div{margin: 0px;padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h3{display: inline-block;}
+.left{float: left;}
+.right{float: right;}
+.center{text-align: center;}
+.clean{clear: both;}
+li{display: inline;}
+.my{width: 100%;height: 40px;line-height: 50px;font-size: 18px;color: rgb(170, 170, 170);}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+.index-icon {
+    margin-top: 20px;
+    color: white;
+    font-size: 80px;
+}
+.index-gongan {
+    color: #999;
+    font-size: 20px;
+}
+.index-php {
+    color: white;
+    font-size: 70px;
+}
+.test-hand {
+    color: white;
+    font-size: 30px;
+    margin-top: 3px;
+}
+body{font-size: 20px;font-family: "微软雅黑";}
+/* 首页 */
+
+/* 顶部 */
+.index .top{padding-left:10%;height: 70px;background-color: steelblue;line-height: 70px;}
+.index .top .title {
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;}
+
+/* 考生须知 */
+.index .main{width:80%;margin-left:10%;}
+.index .main h2{text-align: center;}
+.index .main .notice{padding: 5px 20px;}
+.index .main .notice p{margin-top:5px;}
+.index .main .detail table{margin-top:10px;width:800px;height:300px;border: 1px solid black;border-collapse: collapse;}
+.index .main .detail table,td,th{border: 2px solid steelblue;color: rgb(15, 15, 15);text-align: center;}
+.index .main .detail .remark{margin-top:5px;font-size: 18px;}
+
+/* 考生服务导航 */
+.index .box {
+    height: 230px;
+    display: inline-block;
+    text-align: center;}
+.index .box .box-header1 {
+    margin-bottom: 30px;
+    width: 262px;
+    height: 130px;
+    background-color: #60a3bc;
+}
+.index .box .box-header2 {
+    margin-bottom: 30px;
+    width: 262px;
+    height: 130px;
+    background-color: #fa983a;
+} 
+.index .box .box-header3 {
+    margin-bottom: 30px;
+    width: 262px;
+    height: 130px;
+    background-color: #78e08f;
+} 
+.index .box .box-header4 {
+    margin-bottom: 30px;
+    width: 262px;
+    height: 130px;
+    background-color: #e55039;
+}
+.index .box span {
+    color: #666;
+    font-size: 20px;
+}
+
+.index .four a {
+    margin-left: 30px;
+    width: 262px;
+    height: 230px;
+    display: block;
+    margin-top: 40px;
+    box-shadow: 0px 0px 1px grey;
+    transition: all ease 0.4s;
+}
+.index .four a:hover {
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgb(138, 138, 138);
+}
+
+/* 底部 */
+.index .bottom {
+    margin-top: 100px;
+    height: 150px;
+    background-color: #353b48;
+}
+.index .bottom-content {
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+}
+.index .declaration, .bottom-content .other {
+    color: #999;
+    font-size: 15px;
+    line-height: 25px;
+}
+.index .declar {
+    color: #999;
+}
+/* 试卷 */
+
+/* 顶栏 */
+.test .top{position: fixed;z-index: 100;top: 0px;width:100%;height: 40px;background-color: rgb(065, 125, 179);border: 2px solid gray;padding-bottom: 10px;padding-top: 10px;}
+.test .top ul{width: 90%;text-align: left;font-size: 24px;margin-left: 0px;}
+.test .top li{color: #eef7ff;}
+.test .top li{padding:3px;padding-left: 10px;padding-right: 80px;height: 40px;}
+.test .top li.title{font-weight: 550;}
+.test .top img{width: 40px;height: 40px;vertical-align: middle;}
+.test .top li.hand{margin-right: 20px;}
+.test .top .sum_all, .score_all{margin-right: 10px;font-size: 20px;color: white;}
+.test .top li span .time{margin-right: 0px;}
+
+/* 左方选题栏 */
+.test .nav{width: 18%;height: 600px;background-color: rgb(168, 196, 231);}
+.test .nav{position: fixed;margin-top: 20px;padding: 8px;border-radius: 3px;}
+.test .nav  a{color: #3498db;display: block;width: 25px;height: 25px;border: 1.5px solid dodgerblue;}
+.test .nav  a{font-size: 17px;background-color: #ffffff;margin-left: 8px;margin-top: 8px;border-radius: 50%;}
+.test .nav  a{text-align: center;line-height: 25px;font-weight: 500;font-family: "微软雅黑 常规";}
+.test .nav .sin{width: 90%;height: 180px;border: 1.5px dotted rgb(065, 125, 179);position: absolute;}
+.test .nav .sin .title{text-align: left;background-color: dodgerblue;height: 30px;}
+.test .nav .sin .section{width: 100%;height: 150px;background-color: skyblue;}
+.test .nav .sin .section .abox{width: 280px;height: 100px;position: absolute;margin-top: -25px;}
+
+.test .nav .mul{position: absolute;margin-top: 190px;width: 90%;height: 70px;border: 1.5px dotted rgb(065, 125, 179);}
+.test .nav .mul .title{text-align: left;background-color: dodgerblue;height: 30px;}
+.test .nav .mul .section{width: 100%;height: 40px;position: absolute;background-color: skyblue;}
+.test .nav .mul .section .abox{width: 280px;height: 100px;position: absolute;margin-top: -28px;}
+
+.test .nav .fill{position: absolute;margin-top: 270px;width: 90%;height: 110px;border: 1.5px dotted rgb(065, 125, 179);}
+.test .nav .fill .title{text-align: left;background-color: dodgerblue;height: 30px;}
+.test .nav .fill .section{width: 100%;height: 80px;position: relative;background-color: skyblue;}
+.test .nav .fill .section .abox{width: 280px;height: 100px;position: absolute;margin-top: -28px;}
+
+.test .nav .jud{position: absolute;margin-top: 390px;width: 90%;height: 110px;border: 1.5px dotted rgb(065, 125, 179);}
+.test .nav .jud .title{text-align: left;background-color: dodgerblue;height: 30px;}
+.test .nav .jud .section{width: 100%;height: 80px;position: relative;background-color: skyblue;}
+.test .nav .jud .section .abox{width: 280px;height: 100px;position: absolute;margin-top: -28px;}
+
+.test .bar {
+    position: fixed;
+    width: 260px;
+    height: 20px;
+    margin-top: 570px;
+    margin-left: 10px;
+    border: 2px solid #ffffff;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    color: black;
+}
+.test .bar .pace {
+    width: 0%;
+    background-color: #2991f3;
+}
+
+
+/* 答题部分 */
+.test .main{width: 78%;border: 1px solid gray;border-left: 5px solid dodgerblue;background-color: white;border-radius: 3px;}
+.test .main{position: relative;margin-left: 300px;margin-top: 50px;}
+.test .main .ques{width: 1100px;margin-top: 10px;position: relative;}
+.test .main .target-fix {position: relative;top: -44px;display: block;height: 0;overflow: hidden;}
+.test .main .ques .question{width: 1000px;height: 80px;line-height: 20px;}
+.test .main .ques .question_fill{width: 1000px;height: 80px;line-height: 2em;}
+.test .main .ques .a{width: 1100px;height: 50px;line-height: 50px;}
+.test .main .ques .b{width: 1100px;height: 50px;line-height: 50px;}
+.test .main .ques .c{width: 1100px;height: 50px;line-height: 50px;}
+.test .main .ques .a_input{font-size: 19px;color: rgb(78, 78, 78);}
+.test .main .ques .a_input input{width: 250px;height: 25px;line-height: 50px;margin-top: 30px;}
+.test .main .ques .d{width: 1100px;line-height: 50px;border-bottom: 1px solid dodgerblue;}
+.test .main .ques input{width: 30px;height: 20px;border:1px outset black;background:rgb(255, 255, 255);border-radius: 3px;}
+.test .main .submit{z-index: 200;width: 100px;height: 40px;position: fixed;top: 11px;right: 30px;}
+.test .main .submit input{width: 100px;height: 40px;background-color: rgb(065, 125, 179);border: 1.5px outset rgb(178, 224, 255);border-radius: 3px;}
+.test .main .submit input{font-size: 20px;color: white;}
+.test .main .submit input:hover{background-color: rgb(94, 180, 255);box-shadow: 1px 1px 2px blue;}
+
+/* 成绩单 */
+.outcome .top{width: 60%;height: 260px;margin-left: 20%;position: relative;}
+.outcome .top .title{letter-spacing: 3px;color: rgb(39, 118, 223);font-size: 25px;width: 100%;height: 50px;position: absolute;text-align: center;margin-left: 0px;line-height: 50px;}
+.outcome .top .stu{width: 400px;height: 100px;margin-top: 60px;margin-left: 80px;position: absolute;}
+.outcome .top .stu ul{width: 400px;height: 100px;}
+.outcome .top .stu li{color: rgb(39, 118, 223);display: list-item;margin-top: 20px;letter-spacing: 10px;font-size: 25px;}
+.outcome .top .title_2{font-size: 25px;width: 100%;height: 50px;position: absolute;background-color: rgb(67, 154, 241);margin-top: 210px;text-align: center;line-height: 50px;}
+.outcome .mid{width: 60%;height: 120px;margin-left: 20%;position: relative;}
+.outcome .mid li{color: rgb(39, 118, 223);display: list-item;margin-top: 10px;letter-spacing: 10px;font-size: 20px;}
+.outcome .mid ul{width: 400px;height: 80px;margin-left: 80px;position: absolute;}
+.outcome .grade{width: 50%;height: 260px;margin-left: 25%;position: relative;}
+.outcome .grade li{display: list-item;margin-top: 15px;letter-spacing: 10px;font-size: 20px;color: rgb(85, 85, 85);}
+.outcome .grade ul{width: 300px;height: 80px;margin-left: 150px;position: absolute;margin-top: 20px;}
+.outcome .bottom{width: 60%;height: 50px;position: relative;margin-left: 20%;color: rgb(39, 118, 223);}
+.outcome .mid span{color: rgb(172, 20, 20);font-weight: 800;}
+.outcome .grade span{color: rgb(17, 95, 184);font-weight: 800;}
+
+/*   项目名称：php在线考试系统            */
+/*   作者：文君                         */
+/*   学号：2180558                      */
+/*   代码总量：2000条                   */
+/*   最后更新日期：2020-5-28             */
+/*   项目历时：一个多月                  */

@@ -1,0 +1,26 @@
+body,h1{margin: 0px;padding: 0px;}
+body{background-color: ghostwhite}
+h1{color: azure;font-size:50px}
+a{text-decoration: none;}
+div{border-radius: 3px;}
+.center{text-align: center;}
+
+.header{width: 50%;height: 100px;background-color:dodgerblue;margin-right:auto;margin-left: auto;margin-top: 80px;padding-top: 30px;}
+.main{width: 700px;height: 300px;margin-top: 50px;background-color: rgb(232, 240, 241);box-shadow: 1px 1px 5px gray;position: relative;margin-left: auto;margin-right: auto;}
+.main th{font-size: 20px;}
+.main .login{width: 400px;height: 200px;text-align: center;margin-top: 20px;margin-left: 80px;position: absolute;}
+.main .login input{border-radius: 5px;border: 1px solid grey;text-indent: 0.5em;}
+.main .login .examid{width: 300px;height: 30px;}
+.main .button{width: 250px;height: 40px;position: absolute;margin-top: 220px;}
+.main .button_in{width: 300px;height: 40px;margin-left: 50px;}
+.main .button_in:hover{background-color: rgb(59, 193, 255);}
+.main .button_in{font-size: 20px;color:white;border-radius: 3px;position: absolute;background-color:dodgerblue;border: 1px solid gray;}
+
+.header_2{width: 60%;height: 100px;background-color:dodgerblue;margin-right:auto;margin-left: auto;margin-top: 80px;padding-top: 30px;}
+.main_2{width: 700px;height: 300px;margin-top: 50px;background-color: rgb(140, 209, 255);border-radius: 5px;box-shadow: 1px 1px 5px gray;position: relative;margin-left: auto;margin-right: auto;}
+.main_2 .login_2{width: 400px;height: 200px;text-align: center;margin-top: 40px;margin-left: 30px;position: absolute;}
+.main_2 .login_2 input{border-radius: 5px;}
+.main_2 .login_2 th{font-size: 25px;}
+.main_2 .login_2 .button_2{width: 210px;height: 40px;background-color:dodgerblue;border: 1px solid rgb(153, 153, 153);margin-top: 30px;margin-left: 50px;}
+.main_2 .login_2 .button_2,a{font-size: 20px;color: black;line-height: 40px;color: lavenderblush;}
+.main_2 .login_2 .button_2:hover{color:white;background-color: rgb(59, 193, 255);}

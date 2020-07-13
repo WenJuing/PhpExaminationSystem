@@ -1,0 +1,411 @@
+body,h2,ul,li{margin: 0px;padding: 0px;}
+a{text-decoration: none;}
+h2{margin-left: 20px;margin-top: 20px;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: left;}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+.top_php {
+    color: white;
+    font-size: 50px;
+}
+.top_member {
+    color: white;
+    font-size: 30px;
+}
+/* 顶栏 */
+.top{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: dodgerblue;}
+.top .title{
+    font-size: 30px;
+    color: white;}
+.top .hello{
+    display: block;
+    margin-left: 900px;
+            color: white;
+            text-shadow: 1px 1px 10px darkblue;}
+.top .logout{
+    display: block;
+    margin-left: 100px;
+            color: white;}
+
+/* 导航栏 */
+.nav{
+    position: fixed;
+    width: 250px;
+    height: 600px;
+    border: 2px ridge #74b9ff;
+    margin-top: 70px;
+    border-radius: 5px;
+    background: #abd6ff;}
+.nav ul{width: 250px;
+        height: 500px;
+        position: absolute;}
+.nav .header{
+    width: 100%;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 60px;
+    background-color: #0984e3;
+}
+.nav .o{width: 100%;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 60px;
+        transition: background-color 0.5s,color 0.5s;}
+.nav ul .tit{
+        height: 80px;
+        font-size: 30px;
+        background-color: #56b6ff;}
+.nav a{width: 100%;
+        height: 60px;
+        display: block;}
+.nav a:link,a:visited{
+        color: #003f32;}
+.nav .o:hover{
+        background-color: #74b9ff;
+        color: rgb(255, 255, 255);
+}
+
+/* 右边主体结构 */
+.main {
+    position: relative;
+    width: 1250px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 250px;
+    border-radius: 2px;
+    background-color: #dbf2ff;
+    border: 3px solid #00b894;}
+/* 后台首页 */
+.main .hello{
+    border: 1.5px inset #b2bec3;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1100px;
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.main .hello .title {
+    font-size: 20px;
+}
+.main .hello .text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.main .infor {
+    border: 1.5px inset #b2bec3;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 1100px;
+    height: 180px;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* 教师信息 */
+/* 考生名单 */
+/* 考生成绩 */
+.gra{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+}
+.gra, .gra th, .gra td {
+    border-collapse: collapse;
+    border: 2px inset #74b9ff;
+    text-align: center;
+    height: 30px;
+}
+.gra th {
+    background-color: #74b9ff;
+}
+.gra td {
+    background-color: white;
+}
+/* 录入考题 */
+.main .sin{width: 550px;
+           height: 320px;
+           border: 3px dashed #55efc4;}
+.main .sin .sin_in{width: 500px;
+                   height: 250px;
+                   position: absolute;
+                   margin-left: 20px;
+                   margin-top: 10px;}
+.main .sin .sin_in tr{height: 25px;}
+.main .sin .sin_in input,textarea{width: 400px;}
+.main .sin .sin_in .ok{width: 150px;
+                       height: 30px;
+                       color: white;
+                       background-color: #74b9ff;}
+.main .mul{width: 550px;
+           height: 320px;
+           border: 3px dashed #55efc4;}
+.main .mul .mul_in{width: 500px;
+                   height: 250px;
+                   position: absolute;
+                   margin-left: 20px;
+                   margin-top: 10px;}
+.main .mul .mul_in tr{height: 25px;}
+.main .mul .mul_in input,textarea{width: 400px;}
+.main .mul .mul_in .ok{width: 150px;
+                       height: 30px;
+                       color: white;
+                       background-color: #74b9ff;}
+.main .fill{width: 550px;
+           height: 200px;
+           border: 3px dashed #55efc4;}
+.main .fill .fill_in{width: 500px;
+                   height: 250px;
+                   position: absolute;
+                   margin-left: 20px;
+                   margin-top: 10px;}
+.main .fill .fill_in tr{height: 25px;}
+.main .fill .fill_in input,textarea{width: 400px;}
+.main .fill .fill_in .ok{width: 150px;
+                       height: 30px;
+                       color: white;
+                       background-color: #74b9ff;}
+.main .jud{width: 550px;
+           height: 200px;
+           border: 3px dashed #55efc4;}
+.main .jud .jud_in{width: 500px;
+                   height: 250px;
+                   position: absolute;
+                   margin-left: 20px;
+                   margin-top: 10px;}
+.main .jud .jud_in tr{height: 25px;}
+.main .jud .jud_in input,textarea{width: 400px;}
+.main .jud .jud_in .ok{width: 150px;
+                       height: 30px;
+                       color: white;
+                       background-color: #74b9ff;}
+.return{
+        width:130px;
+        height: 40px;
+        display: block;
+        margin-top: 545px;
+        margin-left: 1000px;
+        position: absolute;
+        text-align: center;
+        line-height: 40px;
+        border: 1.1px ridge rgb(55, 97, 224);
+        font-size: 20px;}
+.return:link,.return:visited{color: white;background-color: #74b9ff;}
+.return:hover{background-color: #0984e3;box-shadow: 2px 2px 4px rgb(33, 185, 255);}
+
+.main_del .return{
+    width:130px;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    line-height: 40px;
+    border: 1.1px ridge rgb(55, 97, 224);
+    font-size: 20px;}
+.main_del .return:link,.return:visited{color: white;background-color: #74b9ff;}
+.main_del .return:hover{background-color: #0984e3;box-shadow: 2px 2px 4px rgb(33, 185, 255);}
+
+.file {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    background: #74b9ff;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: relative;
+    font-size: 100px;
+    right: 0px;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #0984e3;
+    border-color: #78C3F3;
+    color: white;
+    text-decoration: none;
+}
+/* 试卷详情 */
+.box1 {
+    width: 1100px;
+    height: 150px;
+    margin-top: 20px;
+}
+.box1 .name, .time {
+    height: 50px;
+    margin-left: 20px;
+    line-height: 50px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.box1 p {
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.box2 {
+    border: 2px solid #74b9ff;
+    width: 700px;
+    height: 320px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box2 .b_in {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.box2 .b_in, .b_in th, .b_in td {
+    border: 2px solid #3f99f3;
+    border-collapse: collapse;
+}
+.box2 .b_in th {
+    letter-spacing: 3px;
+    background-color: #74b9ff;
+}
+.box2 .b_in td {
+    background-color: white;
+}
+.box2 .b_in #s_sum, #m_sum, #f_sum, #j_sum,
+#s_score, #m_score, #f_score, #j_score, #na,
+ #ti, #s_all, #sc_all{
+    display: none;
+}
+.box2 .b_in #sin_sum, #mul_sum, #fill_sum, #jud_sum,
+#sin_score, #mul_score, #fill_score, #jud_score, #time{
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+}
+#name {
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+}
+.okey {width: 130px;
+    height: 40px;
+    margin-left: 550px;
+    margin-top: 20px;
+    color: white;
+    background-color: #74b9ff;}
+
+/* 更新试题 */
+.upd .main .sin{width: 1100px;
+    height: 320px;
+    border: 3px dashed #55efc4;}
+.upd .main .sin .sin_in{width: 1000px;
+            height: 250px;
+            position: absolute;
+            margin-left: 20px;
+            margin-top: 10px;}
+.upd .main .sin .sin_in tr{height: 25px;}
+.upd .main .sin .sin_in input,.upd .main .sin .sin_ intextarea{width: 600px;}
+.upd .main .sin .sin_in .ok{width: 150px;
+                height: 30px;
+                margin-left: 180px;
+                color: white;
+                background-color: #74b9ff;}
+.upd .main .sin .sin_in .ori {margin-top: 40px;}
+
+/* 删除试题 */
+.main_del {
+    position: absolute;
+    width: 1250px;
+    margin-top: 70px;
+    margin-left: 250px;
+    border-radius: 2px;
+    background-color: #dbf2ff;
+    border: 3px solid #00b894;}
+.main_del .gra {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    margin: 0px 0px;
+}
+.main_del .gra, .gra th, .gra td {
+    border-collapse: collapse;
+    border: 2px inset #74b9ff;
+    text-align: center;
+    height: 30px;
+}
+.main_del .gra th {
+    background-color: #74b9ff;
+}
+.main_del .gra td {
+    background-color: white;
+}
+.main_del .gra a {
+    display: block;
+    line-height: 30px;
+}
+.main_del .gra a:link,a:visited{color: #003f32;}
+.main_del .gra a:hover{color: red;}
+.main_del .gra .fix_nav {
+    border: 1px solid white;
+    background-color: #182C61;
+    color: white;
+}
+.main_del .gra .fix_sin {
+    border: 1px solid white;
+    background-color: #55E6C1;
+}
+.main_del .gra .fix_sin a {
+    color: white;
+}
+.main_del .gra .fix_mul {
+    border: 1px solid white;
+    background-color: #25CCF7;
+}
+.main_del .gra .fix_mul a {
+    color: white;
+}
+.main_del .gra .fix_fill {
+    border: 1px solid white;
+    background-color: #D6A2E8;
+}
+.main_del .gra .fix_fill a {
+    color: white;
+}
+.main_del .gra .fix_jud {
+    border: 1px solid white;
+    background-color: #FEA47F;
+}
+.main_del .gra .fix_jud a {
+    color: white;
+}
+.target-fix {
+    position: relative;
+    top: -55px;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    }
+    

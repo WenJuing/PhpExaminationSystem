@@ -1,5 +1,6 @@
-**An elementary testsystem which based on procedure oriented programming.
-一个基于面向过程编程的适合初学者练习的PHP在线考试系统**
+**An elementary testsystem which based on procedure oriented programming.**
+
+**一个基于面向过程编程的适合初学者练习的PHP在线考试系统**
 
 **如何使用?**
 

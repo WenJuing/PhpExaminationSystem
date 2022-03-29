@@ -11,3 +11,5 @@
 //数据库账号密码均为默认root
 
 3、下载phpexcel插件包，并移动到www/plugins/phpexcel文件夹中使用
+
+项目实例：exam.dadagodo.com
